@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             containerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
-            containerView.leadingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+            containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
             containerView.heightAnchor.constraint(equalToConstant: containerViewHeight)
         ])
     }
